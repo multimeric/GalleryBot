@@ -4,9 +4,11 @@ Gallery Bot is a simple discord bot that takes up to 4 image uploads, and return
 This allows you to share multiple images without taking up much screen real-estate.
 
 Here is an example usage:
+
 ![](media/cmd_example.png)
 
 Which produces:
+
 ![](media/cmd_output.png)
 
 Like with e.g. Twitter links, you can click on individual images to zoom in on them.
