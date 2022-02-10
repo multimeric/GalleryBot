@@ -4,4 +4,4 @@ import * as cdk from "aws-cdk-lib";
 import { DiscordStack } from "../lib/cdk-stack";
 
 const app = new cdk.App();
-new DiscordStack(app, "DiscordBot", {});
+new DiscordStack(app, "GalleryBot", {});

@@ -73,10 +73,10 @@ export class DiscordStack extends Stack {
     updater.node.addDependency(setupFunction);
 
     // We return the URL as this is needed to plug into the discord developer dashboard
-    new cdk.CfnOutput(this, "discordEndpoint", {
+    new cdk.CfnOutput(this, "galleryDiscordEndpoint", {
       value: gateway.apiEndpoint + route[0].path,
       description: "The Interactions Endpoint URL for your discord bot",
-      exportName: "discordInteractionsUrl",
+      exportName: "galleryInteractionsUrl",
     });
 
     /*

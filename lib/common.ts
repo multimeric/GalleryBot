@@ -1,4 +1,4 @@
-import Hello from "./commands/hello";
+import Gallery from "./commands/gallery";
 import LambdaSlashCommand from "./command";
 
 const requiredVars = [
@@ -52,7 +52,7 @@ export function getCdkEnv(): Record<string, string> {
 }
 
 export const commands: typeof LambdaSlashCommand[] = [
-  Hello,
+  Gallery,
   /*
   Put your commands here
   */
