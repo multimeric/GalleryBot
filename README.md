@@ -22,3 +22,7 @@ Like with e.g. Twitter links, you can click on individual images to zoom in on t
 ## Technical Detail
 
 This uses a small hack [explained here](https://github.com/discord/discord-api-docs/discussions/3253#discussioncomment-952628) to enable galleries, which are a built-in but hidden Discord feature.
+
+## Attribution
+
+[Bot logo courtesy of Freepik](https://www.flaticon.com/free-icons/gallery).
